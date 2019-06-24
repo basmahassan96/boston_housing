@@ -13438,7 +13438,9 @@ Standard deviation of prices: $165171.13154429477
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> yes i think it captured the variation of the target variable successfully because at R2 score of 0.923 it shows very high correlation</p>
+<p><strong>Answer:</strong> R^2 = 92.3%
+This implies 92.3% of variation is explained by the target variable and it seems to be high. The model has a fairly strong correlation and has successfully captured the variation of the target variable.
+We only have five points here, and it may be hard to draw conclusion that is statistically significant. More datapoints could perhaps have helped to improve the model</p>
 
 </div>
 </div>
@@ -13707,8 +13709,8 @@ by looking at the graph above that where it resulted the best score as the maxim
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> Grid-searching is the process of scanning the data to configure optimal parameters for a given model it can be applied to calculate the best parameters to use for any given model which results in the most accurate predictions.
-like optimizing the depth parameter in desicion tree algorithm and the C,kernel in svm</p>
+<p><strong>Answer: </strong> 1- the Grid Search is used to comapre various models to apply your data to in order to see which one provides the most useful insight. Similarly the individual hyperparameter of each model can be adjusted and tested to see which hyperparameter settings provide the optimal results to find optimal model we calculate score like f1_score or R-squared . 
+2- in this example we can add another paramter to the decision tree model like min_sapmles_split or min_samples_leaf and try multiple values for it beside multiple values for max_depth parameter then make a table of this model and fin the f1_score for each and choose the best one so by this method we can choose the best optimal solution for our proble by comapring all possible solutions</p>
 
 </div>
 </div>
